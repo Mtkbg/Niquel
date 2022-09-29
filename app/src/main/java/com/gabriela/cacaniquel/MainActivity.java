@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private Button bt_1;
     private Button bt_2;
     private Button bt_3;
+    private Button dica;
     private Button apostar;
     private Button novo_jogo;
     private Button sair;
@@ -60,9 +61,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
-
+//        dica.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent tela = new Intent(getApplicationContext(), Recycle.class);
+//                startActivity(tela);
+//            }
+//        });
 
         apostar.setOnClickListener(new View.OnClickListener() {
             @Override

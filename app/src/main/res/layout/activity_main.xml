@@ -99,10 +99,9 @@
         android:id="@+id/novo_jogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="32dp"
         android:text="Novo jogo"
-        app:layout_constraintEnd_toStartOf="@+id/sair"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/apostar"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -110,11 +109,10 @@
         android:id="@+id/apostar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="32dp"
         android:enabled="false"
         android:text="Apostar"
-        app:layout_constraintEnd_toStartOf="@+id/novo_jogo"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -122,11 +120,18 @@
         android:id="@+id/sair"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Sair"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="68dp"
+        android:text="Do programador para você:"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/novo_jogo"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/dica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dica"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="587dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
